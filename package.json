@@ -7,7 +7,7 @@
     "dev": "tsx server.ts",
     "build": "vite build",
     "preview": "NODE_ENV=production tsx server.ts",
-    "start": "NODE_ENV=production node dist/server.js"
+    "start": "NODE_ENV=production tsx server.ts"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -33,6 +33,7 @@
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",
+    "tsx": "^4.7.1",
     "vite": "^5.1.4"
   },
   "devDependencies": {
