@@ -21,8 +21,8 @@ public/uploads/
 backups/
 
 # Logs (may contain sensitive info)
-logs/
-*.log
+#logs/
+#*.log
 
 # OS files
 .DS_Store
