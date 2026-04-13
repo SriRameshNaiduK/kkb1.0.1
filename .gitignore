@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-server/
+
+# Environment variables (CRITICAL - never commit)
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Data files (contain password hashes)
+data.json
+
+# Uploaded files
+public/uploads/
+
+# Backups (contain full data snapshots)
+backups/
+
+# Logs (may contain sensitive info)
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
